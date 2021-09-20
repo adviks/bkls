@@ -41,6 +41,26 @@ main {
     25px 41.8px 33.4px rgba(0, 0, 0, 0.05), 30px 100px 80px rgba(0, 0, 0, 0.07);
 }
 
+footer {
+  grid-column: 2;
+  align-self: center;
+  padding: 24px;
+  background-color: white;
+  border-radius: 4px;
+  margin: 16px 0;
+  box-shadow: 2px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    4px 6.7px 5.3px rgba(0, 0, 0, 0.028), 8px 12.5px 10px rgba(0, 0, 0, 0.035),
+    15px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    25px 41.8px 33.4px rgba(0, 0, 0, 0.05), 30px 100px 80px rgba(0, 0, 0, 0.07);
+}
+.credit {
+  font-weight: 600;
+  color: black;
+}
+.disclosure {
+  font-size: 10px;
+}
+
 .book {
   font-weight: 600;
 }
