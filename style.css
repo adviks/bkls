@@ -41,17 +41,32 @@ main {
     25px 41.8px 33.4px rgba(0, 0, 0, 0.05), 30px 100px 80px rgba(0, 0, 0, 0.07);
 }
 
-.pdf {
+.book {
+  font-weight: 600;
+}
+.buy {
   margin: auto 2px;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
   background-color: rgba(11, 148, 79, 0.479);
   color: white;
   padding: 1px;
   max-width: max-content;
   border-radius: 2px;
   margin-right: 8px;
-  margin-bottom: 8px;
+  display: inline-block;
+  font-size: 14px;
+}
+.pdf {
+  margin: auto 2px;
+  text-decoration: none;
+  font-weight: 500;
+  background-color: rgba(43, 166, 223, 0.603);
+  color: white;
+  padding: 1px;
+  max-width: max-content;
+  border-radius: 2px;
+  margin-right: 2px;
   display: inline-block;
   font-size: 12px;
 }
@@ -86,6 +101,7 @@ h1 {
 
 li {
   list-style: none;
+  margin-bottom: 5px;
 }
 
 p {
