@@ -1,116 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>A Simple Booklist for UPSC CSE - BooklistOne</title>
+    <title>A simple booklist for UPSC CSE - BOOKLIST ONE</title>
     <link rel="icon" href="/📚.png" />
-    <meta name="description" content="A simple booklist for UPSC CSE />
+    <meta name="description" content="A simple booklist for UPSC CSE" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
-
-    <style>
-      :root {
-        --text-primary: hsl(235, 30%, 10%);
-        --text-secondary: hsl(235, 10%, 40%);
-        --text-chip: hsl(235, 40%, 30%);
-        --background: hsl(235, 46%, 90%);
-        --underline: hsl(235, 30%, 80%);
-      }
-      * {
-        font-family: "Inter", sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        color: var(--text-secondary);
-        margin: 0;
-        padding: 0;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-      }
-
-      body {
-        background-color: var(--background);
-        min-height: 80vh;
-        display: grid;
-        grid-template-columns: minmax(16px, 1fr) minmax(0, 512px) minmax(
-            16px,
-            1fr
-          );
-      }
-
-      ::selection {
-        background-color: var(--background);
-        color: var(--text-primary);
-      }
-
-      main {
-        grid-column: 2;
-        align-self: center;
-        padding: 24px;
-        background-color: white;
-        border-radius: 4px;
-        margin: 16px 0;
-        box-shadow: 2px 2.8px 2.2px rgba(0, 0, 0, 0.02),
-          4px 6.7px 5.3px rgba(0, 0, 0, 0.028),
-          8px 12.5px 10px rgba(0, 0, 0, 0.035),
-          15px 22.3px 17.9px rgba(0, 0, 0, 0.042),
-          25px 41.8px 33.4px rgba(0, 0, 0, 0.05),
-          30px 100px 80px rgba(0, 0, 0, 0.07);
-      }
-
-      .pdf {
-        margin: auto 2px;
-        text-decoration: none;
-      }
-
-      .logo {
-        font-weight: 600;
-        margin-bottom: 4px;
-        letter-spacing: -0.5px;
-        font-size: 16px;
-      }
-
-      h1 {
-        font-size: 28px;
-        margin-bottom: 32px;
-        color: var(--text-primary);
-        font-weight: 600;
-        line-height: 1.3;
-      }
-
-      .chips {
-        font-weight: 600;
-        background-color: var(--background);
-        color: var(--text-chip);
-        padding: 4px 8px;
-        max-width: max-content;
-        border-radius: 2px;
-        margin-right: 8px;
-        margin-bottom: 8px;
-        display: inline-block;
-        font-size: 14px;
-      }
-
-      li {
-        list-style: none;
-      }
-
-      p {
-        line-height: 1.5;
-        margin-bottom: 12px;
-        font-size: 18px;
-      }
-
-      a {
-        font: inherit;
-        text-decoration-color: var(--underline);
-      }
-
-      code {
-        color: inherit;
-        font-family: "SFMono-Regular", Menlo, monospace;
-        font-weight: 600;
-        font-size: inherit;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
@@ -123,7 +19,12 @@
       <ul>
         <li>
           <a href="https://amzn.to/3ECj1B2">RS Sharma</a>
-          <a class="pdf" href="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf">⬇️</a>
+          <a
+            class="pdf"
+            href="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+            download
+            >PDF</a
+          >
         </li>
         <li></li>
         <li></li>
