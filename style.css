@@ -57,8 +57,8 @@ footer {
   font-weight: 600;
   color: black;
 }
-.disclosure {
-  font-size: 10px;
+.disclaimer {
+  font-size: 6px !important;
 }
 
 .book {
@@ -68,25 +68,25 @@ footer {
   margin: auto 2px;
   text-decoration: none;
   font-weight: 500;
-  background-color: rgba(11, 148, 79, 0.479);
-  color: white;
-  padding: 1px;
+  background-color: rgba(11, 148, 79, 0.226);
+  color: rgba(11, 148, 79, 0.884);
+  padding: 2px;
   max-width: max-content;
   border-radius: 2px;
-  margin-right: 8px;
+  margin-left: 4px;
   display: inline-block;
-  font-size: 14px;
+  font-size: 12px;
 }
 .pdf {
   margin: auto 2px;
   text-decoration: none;
   font-weight: 500;
-  background-color: rgba(43, 166, 223, 0.603);
-  color: white;
-  padding: 1px;
+  background-color: rgba(43, 166, 223, 0.267);
+  color: rgba(16, 99, 138, 0.945);
+  padding: 2px;
   max-width: max-content;
   border-radius: 2px;
-  margin-right: 2px;
+  margin-left: 2px;
   display: inline-block;
   font-size: 12px;
 }
@@ -117,6 +117,10 @@ h1 {
   margin-bottom: 8px;
   display: inline-block;
   font-size: 18px;
+}
+
+.subject {
+  margin-bottom: 2em;
 }
 
 li {
