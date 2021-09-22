@@ -22,7 +22,7 @@ body {
   background-color: var(--background);
   min-height: 80vh;
   display: grid;
-  grid-template-columns: minmax(16px, 1fr) minmax(0, 512px) minmax(16px, 1fr);
+  grid-template-columns: minmax(16px, 1fr) minmax(0, 612px) minmax(16px, 1fr);
 }
 
 ::selection {
